@@ -1,0 +1,123 @@
+------------------------------------------------------------------
+-- Join The Discord! https://discord.gg/mSus39zW
+------------------------------------------------------------------
+
+Wait(2)
+
+game.StarterGui:SetCore("SendNotification", {
+   Title = "Script",
+   Text = "Loading script...",
+   Icon = "",
+   Duration = 5
+})
+
+wait(2)
+
+local start = os.clock()
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("hellclowns ultimate script to bully 5 year old niggers", "Midnight")
+
+--info
+
+local info = Window:NewTab("pls look for info")
+local info = info:NewSection("pls listen or u might get kicked")
+
+info:NewLabel("the iy fly is dectectedble ( makes u get kicked)")
+info:NewLabel("destroyer or death don't use endgame or kick")
+info:NewLabel(" pls join da discord  https://discord.gg/mSus39zW ")
+
+--MAIN
+ 
+local Main = Window:NewTab("main section")
+local MainSection = Main:NewSection("things to bully 5 year olds (undetecteble)")
+ 
+ 
+MainSection:NewButton("End Game very op if the trower is afk", "Only do it when your on Towers team!", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.85745239257812, 99.9999771118164, -18.305282592773438)
+end)
+ 
+MainSection:NewButton("NoKillBrick good if u noob", "Removes the maps killbricks.", function()
+game.Workspace.Map.Classic.KillBrick:Destroy()
+end)
+ 
+MainSection:NewButton("Remove Objects makes it harder ig ", "Removes the objects thrown by the Destroyer.", function()
+game.Workspace.Projectiles:Destroy()
+end)
+ 
+MainSection:NewButton("Fly very undetected script", "It makes you fly..", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/WxmvCLLH'),true))()
+end)
+
+MainSection:NewButton("Fly 2.0 ", "It makes you fly..", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+MainSection:NewButton("Infjump (undetecteble) ", "It makes you jump inf..", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7rx0aVfV'))()
+end)
+
+MainSection:NewButton("kms ( doesn't rlly work tbh )", "Resets your character.", function()
+game.Players.LocalPlayer.Character["Head"]:Destroy()
+game.Players.LocalPlayer.Character["HumanoidRootPart"]:Destroy()
+end)
+ 
+ 
+ 
+local Admins = Window:NewTab("admin scripts ect")
+local Admins = Admins:NewSection("Admins scripts like iy and fates ( can be detected)")
+ 
+Admins:NewButton("IY", "Infinite Yeild.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+ 
+Admins:NewButton("Fates admin", "Fates Admin.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+ 
+Admins:NewButton("homebrew admin ( doesn't work dk the prob )", "homebrew admin.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))();
+end)
+
+local Credits = Window:NewTab("Credits pls look")
+local Credits = Credits:NewSection("Credits join da discord my nigga")
+ 
+Credits:NewLabel("Made by _.hell._")
+Credits:NewLabel(" might will add more admin scripts")
+Credits:NewLabel("join da discord  https://discord.gg/mSus39zW ")
+
+-------------------------------------------------------------------------------------
+--things to load
+-------------------------------------------------------------------------------------
+local finish = os.clock()
+
+local time = finish - start
+local rating
+if time < 3 then
+   rating = "fast"
+elseif time < 5 then
+   rating = "acceptable"
+else
+   rating = "slow"
+end
+
+game.StarterGui:SetCore("SendNotification", {
+   Title = "Script",
+   Text = string.format("Script loaded in %.2f seconds (%s loading)", time, rating),
+   Icon = "",
+   Duration = 5
+})
+
+wait(2)
+
+ game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "this script was made by";
+        Text  = "hellclown dc is _.hell._";
+        Icon  = ""})
+    Duration = 5;
+
+ game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "join the discord";
+        Text  = "https://discord.gg/8K2jhedg";
+        Icon  = ""})
+    Duration = 5;
